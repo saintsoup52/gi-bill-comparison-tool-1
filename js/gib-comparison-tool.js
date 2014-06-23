@@ -852,19 +852,19 @@ var GIBComparisonTool = function () {
         "' target='newtab'>More information about your school &rsaquo;&rsaquo;</a></p>");
       
       if (institution.student_veteran) {
-        $('#sva-chapter').html('<a href="'+ institution.student_veteran_link +'" target="_blank">Link &raquo;</a>');
-        $('#sva-chapter-field').show();
-      } else {
-        $('#sva-chapter-field').hide();
-      }
-
-      if (institution.vetsuccess) {
-        $('#sva-chapter').html('<a href="'+ institution.student_veteran_link +'" target="_blank">Link &raquo;</a>');
+        $('#sva-chapter').html('<a href="'+ institution.student_veteran_link +'" target="_blank">Visit their website &raquo;</a>');
         $('#sva-chapter-field').show();
       } else {
         $('#sva-chapter-field').hide();
       }
       
+      if (institution.vetsuccess_name) {
+        $('#vet-success').html('<a href="mailto:'+ institution.vetsuccess_email +'">Email '+ institution.vetsuccess_name +'</a>');
+        $('#vet-success-field').show();
+      } else {
+        $('#vet-success-field').hide();
+      }
+            
       console.log("====== " + institution.institution + " ======");
       console.log("=== Institution ===");
       console.log(institution);
