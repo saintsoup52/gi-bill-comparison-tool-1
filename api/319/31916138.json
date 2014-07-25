@@ -5,7 +5,7 @@
   "state": "PA",
   "country": "USA",
   "bah": 1335,
-  "poe": null,
+  "poe": true,
   "yr": true,
   "gibill": 44,
   "cross": 212197,

@@ -5,7 +5,7 @@
   "state": "WA",
   "country": "USA",
   "bah": 1446,
-  "poe": null,
+  "poe": true,
   "yr": true,
   "gibill": 270,
   "cross": 236230,

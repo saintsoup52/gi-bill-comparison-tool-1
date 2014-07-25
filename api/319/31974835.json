@@ -8,7 +8,7 @@
   "poe": null,
   "yr": true,
   "gibill": null,
-  "cross": null,
+  "cross": 204486,
   "grad_rate": null,
   "grad_rate_rank": null,
   "default_rate": null,
@@ -17,5 +17,5 @@
   "indicator_group": null,
   "salary": null,
   "zip": "45805",
-  "ope": null
+  "ope": "00486100"
 }

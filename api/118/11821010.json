@@ -5,7 +5,7 @@
   "state": "FL",
   "country": "USA",
   "bah": 1662,
-  "poe": null,
+  "poe": true,
   "yr": true,
   "gibill": 1882,
   "cross": 137351,

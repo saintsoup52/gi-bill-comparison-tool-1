@@ -5,7 +5,7 @@
   "state": "MD",
   "country": "USA",
   "bah": 2193,
-  "poe": null,
+  "poe": true,
   "yr": null,
   "gibill": 12,
   "cross": 162982,
